@@ -22,6 +22,13 @@ public:
 		cout << "I hope to one day become a fully fledged software engineer or game developer who is capable of leading, teaching, and helping other junior developers who are passionate and interested in coding like I am now in jumpstarting their careers in the field." << endl;
 	
 	}
+
+	void interests() {
+				
+		cout << "I enjoy playing video games and within the last few months I have been teaching myself game programming on my free time!" << endl;
+	
+
+	}
 };
 
 int main () {
@@ -31,6 +38,8 @@ int main () {
 	intro.name();
 
 	intro.goals();
+
+	intro.interests();
 
 	return 0;
 }	
