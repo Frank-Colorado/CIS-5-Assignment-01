@@ -7,13 +7,13 @@ class Introduction {
 public:
 	void name() {
 		
-			string myName;
+		string myName;
 
-			cout << "What is your name? ";
+		cout << "What is your name? ";
 
-			cin >> myName;
+		cin >> myName;
 
-			cout << "Hello my name is " << myName << "!" << endl;
+		cout << "Hello my name is " << myName << "!" << endl;
 
 	}
 
@@ -27,7 +27,12 @@ public:
 				
 		cout << "I enjoy playing video games and within the last few months I have been teaching myself game programming on my free time!" << endl;
 	
+	}
 
+	void dreams() {
+	
+		cout << "My dream is to either become a software engineer or a game developer. As I mentioned previously I hope to one day develop and publish my own game! Whether this means creating a game with a team at a game studio or self-publishing my own game on steam!" << endl;
+	
 	}
 };
 
